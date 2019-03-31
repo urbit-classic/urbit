@@ -1,7 +1,7 @@
 # Build instructions
 
 If you're not doing development on Urbit, please read
-https://urbit.org/docs/using/ instead.
+https://urbit-classic.org/ instead.
 
 ## External dependencies
 
@@ -40,5 +40,4 @@ The `vere` binary is produced in `bin/urbit`.
 ## Contact
 
 If you have any questions, problems, patches, or proposals for patches, please
-contact the maintainer, Raymond Pasco (`ray@the.ug`, `~rolsut-rospub` on Urbit)
-by any means available.
+contact `~zod` (`zod@urbit-classic.org`).

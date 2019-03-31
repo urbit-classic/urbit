@@ -119,7 +119,7 @@ less obvious stylistic rules are:
 ## The kernel and pills
 
 urbit bootstraps itself using a binary blob called `urbit.pill`. You
-probably remember fetching it from `bootstrap.urbit.org` before your
+probably remember fetching it from `urbit-classic.org/bootstrap` before your
 first boot. This is just the compiled version of the kernel, which you
 can find in the `arvo/arvo/` directory - `hoon.hoon`, `zuse.hoon`, and
 so on.
@@ -134,14 +134,14 @@ is, on a fakezod:
 When the compilation finishes, your `urbit.pill` will be found in the
 `[pier]/.urb/put/` directory.
 
-Ordinarily, `http://bootstrap.urbit.org/latest.pill` will be updated
+Ordinarily, `http://urbit-classic.org/bootstrap/latest.pill` will be updated
 to match whatever's on `master` in the `arvo` repository with every
 merge to `master`. Older pills will be stored with the `git` SHA1 of the
 relevant commit as `[sha1].pill`.
 
 If you're doing heavy kernel hacking and want to submit intermediate
 pills for your branch, please include them with your pull request, and
-they'll be uploaded to `bootstrap.urbit.org` when your branch is merged.
+they'll be uploaded to `urbit-classic.org/bootstrap` when your branch is merged.
 
 ## Debug urbit with `gdb`
 
