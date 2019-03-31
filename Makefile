@@ -141,7 +141,7 @@ CWFLAGS=-Wall \
         -Wno-strict-aliasing \
         -Werror
 ifneq ($(OS),bsd)
-  CWFLAGS+=-Wno-error=unused-result
+  CWFLAGS+=-Wno-error=unused-result -Wno-error=implicit-fallthrough
 endif
 
 # glibc 2.24 deprecates readdir_r; iff glibc >=2.24,
